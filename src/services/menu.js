@@ -10,11 +10,6 @@ export async function getLeftMenuData() {
           key: 'youtubeFeed',
           url: '/youtube/feed',
         },
-        {
-          title: 'View Cameras',
-          key: 'youtubeView',
-          url: '/youtube/view',
-        },
       ],
     },
     {
@@ -41,11 +36,6 @@ export async function getTopMenuData() {
           title: 'Camera Feeds',
           key: 'youtubeFeed',
           url: '/youtube/feed',
-        },
-        {
-          title: 'View Cameras',
-          key: 'youtubeView',
-          url: '/youtube/view',
         },
       ],
     },
